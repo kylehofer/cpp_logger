@@ -1,0 +1,29 @@
+{
+    "name": "cpp_logger",
+    "version": "1.0.0",
+    "description": "Leveled logging for Pico, Arduino/ESP and Linux with per library compile-time levels and a replaceable sink. C and C++, no heap.",
+    "keywords": "log, logging, debug, embedded, pico, esp8266, esp32, arduino",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kylehofer/cpp_logger.git"
+    },
+    "build": {
+        "srcFilter": [
+            "+<**/*.c>",
+            "+<**/*.cpp>",
+            "-<**/tests/*>"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kyle Hofer",
+            "email": "kylehofer@neurak.com.au",
+            "url": "https://www.neurak.au",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.neurak.au",
+    "frameworks": "*",
+    "platforms": "*"
+}

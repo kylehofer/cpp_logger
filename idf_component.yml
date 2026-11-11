@@ -1,0 +1,3 @@
+version: "1.0.0"
+description: Leveled logging with per library compile-time levels and a replaceable sink
+url: https://github.com/kylehofer/cpp_logger
